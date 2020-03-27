@@ -1,8 +1,15 @@
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0px;  
+body {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
-
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin-top: 0px;  
+    margin-bottom: 0px;
+    text-align: 100px;
+}
 header{
     background: black;
     padding-top: 2em;
@@ -10,22 +17,90 @@ header{
 }
 
 figure{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
     margin: 0px;
+    width: center;
+    text-align: center;
+    margin-block-end: 20px;
     display: inline-block;
    
 }
 
 header section{
     display: inline-block;
-    margin-left: 20%;
+    width: 79%;
+    text-align: right;
 }
 input {
-    border-radius: 6px;
-}
-h1{
-    margin: 0px;
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 16px 0 0 16px;
+    text-align: right;
+    width: 350px;
+    height: 27.9999999999999px;
+    margin-right: -5px;
+    display: inline-block;
 }
 
 header figure h1{
     color: white;
+}
+button{
+    background-color: red ;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    border-radius:0px 16px 16px 0px;
+    border: none;
+    color: white;
+    width: 90px;
+    height: 31px;
+}
+/*main section img {
+    background-image: url("./imagenes/cancun.jpg");
+    background-size: cover; 
+    background-position: right bottom;
+    object-fit: cover;
+    height: 450px;
+    width: 1280px;
+    /*background-size: 1200px 750px;*/
+}
+main section h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight:300;
+    /*width: 10%;*/
+    margin-top: 0px;
+    width: 110px;
+    height: 21px;
+    padding: 19px 0;
+    background: #FDCF06;
+    color: white;
+    margin-left: 45%;
+    margin-right: 45%;
+    
+}
+main section div{
+    color: gray;
+    font-family:'Montserrat', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    background: url(cancun.jpg);
+    padding: 10 10;
+}
+main section#bar{
+    display: inline-block;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 30px;
+    background:cover;
+    background-color: aliceblue;
+}
+main figure{
+    display: inline-block;
+    text-align: center;
+}
+main figure img{
+    background-image: url("./imagenes/cancun.jpg");
+    background: cover;
+
 }
